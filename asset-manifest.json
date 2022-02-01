@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deployTest/static/css/main.d6b529b7.css",
+    "main.js": "/deployTest/static/js/main.a69ac6f0.js",
+    "static/media/Avtar01.jpg": "/deployTest/static/media/Avtar01.0ae4baba9e6d4766b198.jpg",
+    "index.html": "/deployTest/index.html",
+    "main.d6b529b7.css.map": "/deployTest/static/css/main.d6b529b7.css.map",
+    "main.a69ac6f0.js.map": "/deployTest/static/js/main.a69ac6f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b529b7.css",
+    "static/js/main.a69ac6f0.js"
+  ]
+}
