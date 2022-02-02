@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/deployTest/static/css/main.d6b529b7.css",
-    "main.js": "/deployTest/static/js/main.a69ac6f0.js",
+    "main.css": "/deployTest/static/css/main.9a9fadac.css",
+    "main.js": "/deployTest/static/js/main.af0021e9.js",
+    "static/media/Prod4.jpg": "/deployTest/static/media/Prod4.bce0be5fa1337bf32291.jpg",
+    "static/media/Prod2.jpg": "/deployTest/static/media/Prod2.f351b72934ca439ea200.jpg",
     "static/media/Avtar01.jpg": "/deployTest/static/media/Avtar01.0ae4baba9e6d4766b198.jpg",
+    "static/media/dp-1.jpg": "/deployTest/static/media/dp-1.063d2f2dd7a1e3dfb980.jpg",
+    "static/media/Prod3.jpg": "/deployTest/static/media/Prod3.9e6b52f08ee9d3630de9.jpg",
+    "static/media/Prod1.jpg": "/deployTest/static/media/Prod1.8309523c906d20ac75ec.jpg",
     "index.html": "/deployTest/index.html",
-    "main.d6b529b7.css.map": "/deployTest/static/css/main.d6b529b7.css.map",
-    "main.a69ac6f0.js.map": "/deployTest/static/js/main.a69ac6f0.js.map"
+    "main.9a9fadac.css.map": "/deployTest/static/css/main.9a9fadac.css.map",
+    "main.af0021e9.js.map": "/deployTest/static/js/main.af0021e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b529b7.css",
-    "static/js/main.a69ac6f0.js"
+    "static/css/main.9a9fadac.css",
+    "static/js/main.af0021e9.js"
   ]
 }
