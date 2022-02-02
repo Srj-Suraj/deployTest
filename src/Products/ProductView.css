@@ -1,0 +1,37 @@
+.ProductView-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.big-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* hover container  */
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(50, 53, 59, 0.2);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.HoverContainer:hover .image-overlay {
+  height: 100%;
+}
+
+.hoverBTN {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

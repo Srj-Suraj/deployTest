@@ -1,0 +1,87 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    /*text-decoration: none;*/
+}
+
+/* sie bar*/ 
+.sideBar{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #ffffff;
+    z-index: 1;
+    padding-top: 80px;
+    
+}
+
+
+
+
+
+/* Profile*/ 
+.Profile{
+    display: flex;
+    align-items: center;
+}
+.profile_photo{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.userTitle{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: #192A3E;
+}
+.userSubTitle{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #90A0B7;
+
+}
+
+
+.sideBar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+    color: #334D6E;
+    padding-left: 25px;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.sideBar ul li:hover {
+    padding-left: 15px;
+    transition: 0.4s;
+    animation: ease-in;
+}
+.sideBar ul li:hover ::after{
+    transition: 0.4s;
+    animation: ease-out;
+}
+
+.sideBar ul a i{
+    margin-right: 16px;
+}
+
+
+
+
