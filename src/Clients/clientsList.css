@@ -13,37 +13,4 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.list_photo {
-  height: 50px;
-  width: 50px;
-  margin-right: 5px;
-  border-radius: 25px;
-  box-sizing: border-box;
-}
-.listTitle {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  color: #192a3e;
-}
-.listSubTitle {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  color: #90a0b7;
-}
 
-.last-column {
-  width: 10px;
-}
-
-.dp-column {
-  width: 60px;
-}
-.check-box-column {
-  width: 5px;
-}

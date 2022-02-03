@@ -1,0 +1,16 @@
+.dashboard-top-card{
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 10px;
+    display: flex;
+}
+
+.dashboard-top-card-icon{
+    font-size: 40px;
+    margin :7px;
+    margin-right: 20px;
+}
+
+

@@ -51,7 +51,7 @@ function DocViewer() {
 // doc status drop down........
 function DocStatusDropDown() {
   return(
-    <div className="-item float-right ">
+    <div className=" float-right ">
       <div
         className=" "
         type="button"
@@ -127,12 +127,12 @@ function ClientVerification(){
         <table className="table table-hover">
                 <thead>
                     <tr className='table-borderless'>
-                        <th scope="col">Document Type</th>
-                        <th scope="col">Document No.</th>
-                        <th scope="col">Reference Id</th>
-                        <th scope="col">View</th>
-                        <th scope="col" className='col-md-2 text-center'>Status</th>
-                        <th scope="col">Date</th>
+                        <th scope="col" className='text-dark-grey'>Document Type</th>
+                        <th scope="col" className='text-dark-grey'>Document No.</th>
+                        <th scope="col" className='text-dark-grey'>Reference Id</th>
+                        <th scope="col" className='text-dark-grey'>View</th>
+                        <th scope="col" className='col-md-2 text-center text-dark-grey'>Status</th>
+                        <th scope="col" className='text-dark-grey'>Date</th>
                     </tr>
                 </thead>
                 <tbody>

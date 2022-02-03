@@ -8,33 +8,33 @@ import default_DP from "../img/default_DP.jpg";
 // shorting buttons ........................................
 
 const RegionAscending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
-    Region <i className="fa fa-angle-up" />
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
+    Region <i className="fa fa-angle-up px-3" />
   </button>
 );
 const RegionDescending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
-    Region <i className="fa fa-angle-down" />
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
+    Region <i className="fa fa-angle-down px-3" />
   </button>
 );
 const DateAscending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
-    Date <i className="fa fa-angle-up" />
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
+    Date <i className="fa fa-angle-up px-3" />
   </button>
 );
 const DateDescending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
-    Date <i className="fa fa-angle-down" />
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
+    Date <i className="fa fa-angle-down px-3" />
   </button>
 );
 
 const StatusAscending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
     Status <i className="fa fa-angle-up px-3" />
   </button>
 );
 const StatusDescending = (
-  <button type="button" className="btn px-0 py-0 text-left font-weight-bold">
+  <button type="button" className="btn px-0 py-0 text-left font-weight-bold text-dark-grey">
     Status <i className="fa fa-angle-down px-3" />
   </button>
 );
@@ -47,7 +47,7 @@ const CetegoryDiactive = <b className="text-danger ">Diactive</b>;
 // Client Verification Details Three Dot........
 function StatusDropDown() {
   return (
-    <div className="-item float-right ">
+    <div className=" float-right ">
       <div
         className=" "
         type="button"
@@ -127,11 +127,11 @@ export default function ProductApproval() {
           <table className="table table-hover">
             <thead>
               <tr className="table-borderless">
-                <th className=""> {RegionDescending} </th>
-                <th className=""> Category Name</th>
-                <th className=""> Product</th>
-                <th className=""> {DateDescending} </th>
-                <th className=""> View </th>
+                <th className="text-dark-grey"> {RegionDescending} </th>
+                <th className="text-dark-grey"> Category Name</th>
+                <th className="text-dark-grey"> Product</th>
+                <th className="text-dark-grey"> {DateDescending} </th>
+                <th className="text-dark-grey"> View </th>
                 <th className="text-right pr-4"> {StatusDescending} </th>
               </tr>
             </thead>

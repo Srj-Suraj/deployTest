@@ -22,6 +22,7 @@ import Products from "./Products/Products";
 import ProductApproval from "./Products/ProductApproval";
 import ProductView from "./Products/ProductView";
 import AddProduct from "./Products/AddProduct";
+import Sales from "./Sales/Sales";
 
 
 reactDom.render(
@@ -44,6 +45,7 @@ reactDom.render(
         <Route path="/ProductApproval" element={<ProductApproval/>} />
         <Route path="/ProductView" element={<ProductView/>} />
         <Route path="/AddProduct" element={<AddProduct/>} />
+        <Route path="/Sales" element={<Sales/>} />
        
 
         
