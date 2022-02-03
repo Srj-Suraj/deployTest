@@ -43,20 +43,20 @@ function SideBar(){
       </Link>
     </li>
     <li>
-      <Link to="" >
+      <Link to="/Deals" >
         <i className="fa fa-briefcase" />
-        Deal
+        Deals
       </Link>
     </li>
     <li>
-      <Link to="/help-support" >
+      <Link to="/Help&Support" >
         <i className="fa fa-plug" />
         Help Support
       </Link>
     </li>
    
     <li>
-      <Link to="/subscription" >
+      <Link to="/Subscription" >
         <i className="fa fa-check-circle-o" />
         Subscription
       </Link>

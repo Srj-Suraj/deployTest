@@ -36,7 +36,7 @@ function ProductView() {
                       <td>
                         <h4 className="text-primary"> Iphon 13 pro</h4>
                       </td>
-                    </tr>
+                    </tr> 
 
                     <tr>
                       <td className="text-grey">Sub Text</td>
@@ -172,7 +172,7 @@ function ProductView() {
                         {/* view btn */}
                         <button
                           type="button"
-                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-3 "
+                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-1 "
                           data-toggle="modal"
                           data-target="#BigImgModal"
                         >
@@ -214,7 +214,7 @@ function ProductView() {
                         {/* view btn */}
                         <button
                           type="button"
-                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-3 "
+                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-1 "
                           data-toggle="modal"
                           data-target="#BigImgModal"
                         >
@@ -255,7 +255,7 @@ function ProductView() {
                         {/* view btn */}
                         <button
                           type="button"
-                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-3 "
+                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-1 "
                           data-toggle="modal"
                           data-target="#BigImgModal"
                         >
@@ -296,7 +296,7 @@ function ProductView() {
                         {/* view btn */}
                         <button
                           type="button"
-                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-3 "
+                          className=" btn btn-sm btn-primary rounded-pill mx-auto mt-1 "
                           data-toggle="modal"
                           data-target="#BigImgModal"
                         >

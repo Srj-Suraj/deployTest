@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // css
-
+import "./AddProduct.css";
 // img
+import DefaultImage from "../img/DefaultImage.jpg";
 
 function AddProduct() {
   return (
@@ -117,6 +118,15 @@ function AddProduct() {
                     </div>
                   </div>
                 </div>
+
+                <div className=" col-md-12 mb-4">
+                  <img src={DefaultImage} className="AddProductImg" />
+                  <img src={DefaultImage} className="AddProductImg" />
+                  <img src={DefaultImage} className="AddProductImg" />
+                  <img src={DefaultImage} className="AddProductImg" />
+                  <img src={DefaultImage} className="AddProductImg" />
+                </div>
+
 
                 <button
                   type="submit"
